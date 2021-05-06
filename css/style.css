@@ -49,6 +49,7 @@ li{
 }
 .section1{
     margin-top: 50px;
+    width: 1088px;
 }
 .map-wrapper{
     margin-left: 150px;
@@ -66,4 +67,145 @@ h1{
     font-size: 42px;
     color: #000000;
     width: 355px;
+}
+
+.textarea-wraper{
+    resize: none;
+    max-width: 720px;
+    width: 100%;
+    height: 288px;
+    font-size: 13px;
+    border: 2px solid #F8F8F8;
+    background-color: #E8E8E8;
+}
+.input-wraper{
+    border: 2px solid #E8E8E8;
+    width: 352px;
+    height: 60px;
+    background-color: #E8E8E8;
+}
+.wraper-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 720px;
+
+}
+.btn{
+    background-color: #5863F8;
+    width: 352px;
+    height: 60px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+.main-box{
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+}
+.first-box{
+    width: 720px;
+}
+.second-box{
+    padding-left: 16px;
+}
+/* .wraper-form: last-child{
+    padding-top: 16px;
+} */
+/* ver davashore bolo buttoni ratomgac davitdan sworad iyo magram shemdeg airia rac felx gavuwere */
+
+/* 3part */
+.container{
+    max-width: 1366px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.line1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box1{
+    height: 507px;
+    width: 44px;;
+}
+.icon-box{
+    width: 59px;
+	height: 58px;
+    background-color: #5863F8;
+    border-radius: 50%;
+    align-items: center;
+
+}
+
+.picture-wrapper{
+    max-width: 1366px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+
+}
+/* footer */
+footer{
+    max-width: 1366px;
+    width: 100%;
+    height: 395px;
+    background-color: #121212;
+}
+
+
+footer{
+    padding-top: 90px;
+}
+.copyright-wrapper{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.footer-box{
+    width: 260px;
+    height: 191px;
+
+}
+.footer-box h2{
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.footer-box p{
+    color: #B1B1B1;
+    font-size: 14px;
+    width: 260px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-li{
+    font-size: 14px;
+    color: #5863F8;
+    padding-top: 10px;
+}
+li{
+    padding-top: 10px;
+}
+.footerbox-2{
+    width: 103px;
+    height: 155px;
+}
+.footerbox-2 h2{
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.footerbox-3{
+    width: 103px;
+    height: 155px;
+
+}
+.footerbox-3 h2{
+    font-size: 18px;
+    color: #FFFFFF;
 }
