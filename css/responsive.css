@@ -1,0 +1,7 @@
+@media(max-width:1025px){
+    .header-bg{
+        max-width: 1024px;
+        width: 100%;
+    }
+}
+
